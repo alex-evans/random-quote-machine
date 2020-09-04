@@ -6,7 +6,7 @@ class Quote extends React.Component {
         return (
             <div>
                 <p id="text">{this.props.text}</p>
-                <p id="author">{this.props.author}</p>
+                <p id="author">-{this.props.author}</p>
             </div>
         )
     }
